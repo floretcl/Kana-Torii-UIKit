@@ -1,0 +1,801 @@
+
+/* Class = "UILabel"; text = "ア"; ObjectID = "0fq-uU-X8f"; */
+"0fq-uU-X8f.text" = "ア";
+
+/* Class = "UILabel"; text = "ガ"; ObjectID = "0p1-Q3-J3N"; */
+"0p1-Q3-J3N.text" = "ガ";
+
+/* Class = "UILabel"; text = "Introduction"; ObjectID = "0sz-5K-WWt"; */
+"0sz-5K-WWt.text" = "Introduction";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "1Sf-na-kRM"; */
+"1Sf-na-kRM.text" = "A";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Xh-lD-ugN"; */
+"1Xh-lD-ugN.text" = "Label";
+
+/* Class = "UILabel"; text = "-a"; ObjectID = "1e4-MX-rQz"; */
+"1e4-MX-rQz.text" = "-a";
+
+/* Class = "UIButton"; normalTitle = "Listen"; ObjectID = "1jm-tS-AHc"; */
+"1jm-tS-AHc.normalTitle" = "Listen";
+
+/* Class = "UILabel"; text = "-a"; ObjectID = "2B2-5e-7m5"; */
+"2B2-5e-7m5.text" = "-a";
+
+/* Class = "UILabel"; text = "Hiragana"; ObjectID = "2E8-J9-Wha"; */
+"2E8-J9-Wha.text" = "Hiragana";
+
+/* Class = "UIBarButtonItem"; title = "Details"; ObjectID = "2NA-5n-mNF"; */
+"2NA-5n-mNF.title" = "Details";
+
+/* Class = "UILabel"; text = "hy-"; ObjectID = "2u9-vK-5U1"; */
+"2u9-vK-5U1.text" = "hy-";
+
+/* Class = "UINavigationItem"; title = "Lesson"; ObjectID = "2xF-S2-kwX"; */
+"2xF-S2-kwX.title" = "Lesson";
+
+/* Class = "UINavigationItem"; title = "Lesson"; ObjectID = "33O-TW-hYm"; */
+"33O-TW-hYm.title" = "Lesson";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "3Iw-5H-Ojm"; */
+"3Iw-5H-Ojm.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Listen"; ObjectID = "3MY-vI-1RI"; */
+"3MY-vI-1RI.normalTitle" = "Listen";
+
+/* Class = "UINavigationItem"; title = "Write"; ObjectID = "3Qn-h8-PFX"; */
+"3Qn-h8-PFX.title" = "Write";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "3T2-qU-6PO"; */
+"3T2-qU-6PO.text" = "あ";
+
+/* Class = "UILabel"; text = "Memorize kana"; ObjectID = "3ZC-Q0-Yt2"; */
+"3ZC-Q0-Yt2.text" = "Memorize kana";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "3cH-nV-Wfo"; */
+"3cH-nV-Wfo.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "gy-"; ObjectID = "489-xU-JNd"; */
+"489-xU-JNd.text" = "gy-";
+
+/* Class = "UILabel"; text = "-a"; ObjectID = "4Cl-pD-r9Y"; */
+"4Cl-pD-r9Y.text" = "-a";
+
+/* Class = "UIButton"; normalTitle = "Thick"; ObjectID = "4ao-ha-4VW"; */
+"4ao-ha-4VW.normalTitle" = "Thick";
+
+/* Class = "UIButton"; normalTitle = "Erase"; ObjectID = "4iT-cJ-kc2"; */
+"4iT-cJ-kc2.normalTitle" = "Erase";
+
+/* Class = "UILabel"; text = "Correct answer"; ObjectID = "5o2-ZW-n33"; */
+"5o2-ZW-n33.text" = "Correct answer";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "5qp-St-bGo"; */
+"5qp-St-bGo.text" = "A";
+
+/* Class = "UILabel"; text = "Good job!!"; ObjectID = "6dH-q4-IS3"; */
+"6dH-q4-IS3.text" = "Good job!!";
+
+/* Class = "UINavigationItem"; title = "Quiz"; ObjectID = "7d3-wW-H9b"; */
+"7d3-wW-H9b.title" = "Quiz";
+
+/* Class = "UILabel"; text = "g-"; ObjectID = "7dH-jw-9Bs"; */
+"7dH-jw-9Bs.text" = "g-";
+
+/* Class = "UILabel"; text = "Dakuon & Handakuon"; ObjectID = "7kX-ir-Lg7"; */
+"7kX-ir-Lg7.text" = "Dakuon & Handakuon";
+
+/* Class = "UILabel"; text = "my-"; ObjectID = "7sz-jN-hgt"; */
+"7sz-jN-hgt.text" = "my-";
+
+/* Class = "UILabel"; text = "0 / 10"; ObjectID = "8Wz-cO-cyo"; */
+"8Wz-cO-cyo.text" = "0 / 10";
+
+/* Class = "UILabel"; text = "Kana Torii"; ObjectID = "8Xe-zI-kpL"; */
+"8Xe-zI-kpL.text" = "Kana Torii";
+
+/* Class = "UISegmentedControl"; 8gR-HK-YnD.segmentTitles[0] = "a -> あ"; ObjectID = "8gR-HK-YnD"; */
+"8gR-HK-YnD.segmentTitles[0]" = "a -> あ";
+
+/* Class = "UISegmentedControl"; 8gR-HK-YnD.segmentTitles[1] = "あ -> a"; ObjectID = "8gR-HK-YnD"; */
+"8gR-HK-YnD.segmentTitles[1]" = "あ -> a";
+
+/* Class = "UIViewController"; title = "DetailKana"; ObjectID = "9Te-3f-K0G"; */
+"9Te-3f-K0G.title" = "DetailKana";
+
+/* Class = "UILabel"; text = "Dakuon & Handakuon"; ObjectID = "9gf-5m-HyD"; */
+"9gf-5m-HyD.text" = "Dakuon & Handakuon";
+
+/* Class = "UIButton"; normalTitle = "Thick"; ObjectID = "A4r-4s-mOu"; */
+"A4r-4s-mOu.normalTitle" = "Thick";
+
+/* Class = "UILabel"; text = "ny-"; ObjectID = "A6F-nd-lFj"; */
+"A6F-nd-lFj.text" = "ny-";
+
+/* Class = "UILabel"; text = "h-"; ObjectID = "AOv-ZA-XW8"; */
+"AOv-ZA-XW8.text" = "h-";
+
+/* Class = "UILabel"; text = "sh-"; ObjectID = "Akx-9p-TxO"; */
+"Akx-9p-TxO.text" = "sh-";
+
+/* Class = "UIButton"; normalTitle = "Thin"; ObjectID = "AuY-v3-S1P"; */
+"AuY-v3-S1P.normalTitle" = "Thin";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "Axw-1A-0na"; */
+"Axw-1A-0na.normalTitle" = "Return";
+
+/* Class = "UIButton"; normalTitle = "Listen"; ObjectID = "AzX-3I-z4v"; */
+"AzX-3I-z4v.normalTitle" = "Listen";
+
+/* Class = "UILabel"; text = "ch-"; ObjectID = "B7k-YW-lPG"; */
+"B7k-YW-lPG.text" = "ch-";
+
+/* Class = "UILabel"; text = "ny-"; ObjectID = "BLf-H8-Ohh"; */
+"BLf-H8-Ohh.text" = "ny-";
+
+/* Class = "UILabel"; text = "Memorize kana"; ObjectID = "BVT-EY-BGA"; */
+"BVT-EY-BGA.text" = "Memorize kana";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "Bfx-AI-diO"; */
+"Bfx-AI-diO.text" = "A";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Bgc-PI-XMD"; */
+"Bgc-PI-XMD.title" = "Back";
+
+/* Class = "UILabel"; text = "Lesson XX"; ObjectID = "Bms-0S-0pc"; */
+"Bms-0S-0pc.text" = "Lesson XX";
+
+/* Class = "UISegmentedControl"; CV5-Ks-dPA.segmentTitles[0] = "Gojuon"; ObjectID = "CV5-Ks-dPA"; */
+"CV5-Ks-dPA.segmentTitles[0]" = "Gojuon";
+
+/* Class = "UISegmentedControl"; CV5-Ks-dPA.segmentTitles[1] = "(Han)dakuon"; ObjectID = "CV5-Ks-dPA"; */
+"CV5-Ks-dPA.segmentTitles[1]" = "(Han)dakuon";
+
+/* Class = "UISegmentedControl"; CV5-Ks-dPA.segmentTitles[2] = "Yoon"; ObjectID = "CV5-Ks-dPA"; */
+"CV5-Ks-dPA.segmentTitles[2]" = "Yoon";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "CnW-7C-uIA"; */
+"CnW-7C-uIA.normalTitle" = "Submit";
+
+/* Class = "UINavigationItem"; title = "Details"; ObjectID = "CvW-VH-Cui"; */
+"CvW-VH-Cui.title" = "Details";
+
+/* Class = "UILabel"; text = "by-"; ObjectID = "D66-vb-z8q"; */
+"D66-vb-z8q.text" = "by-";
+
+/* Class = "UILabel"; text = "kya"; ObjectID = "D9I-ym-FGW"; */
+"D9I-ym-FGW.text" = "kya";
+
+/* Class = "UILabel"; text = "y-"; ObjectID = "DbJ-k6-4xH"; */
+"DbJ-k6-4xH.text" = "y-";
+
+/* Class = "UILabel"; text = "Write correct kana"; ObjectID = "Dz2-ZG-5Fe"; */
+"Dz2-ZG-5Fe.text" = "Write correct kana";
+
+/* Class = "UILabel"; text = "Is that right ?"; ObjectID = "EEE-ln-BGp"; */
+"EEE-ln-BGp.text" = "Is that right ?";
+
+/* Class = "UILabel"; text = "Your Score"; ObjectID = "EGX-Ji-Cwc"; */
+"EGX-Ji-Cwc.text" = "Your Score";
+
+/* Class = "UILabel"; text = "Is that right ?"; ObjectID = "EJm-bF-jJM"; */
+"EJm-bF-jJM.text" = "Is that right ?";
+
+/* Class = "UILabel"; text = "z-"; ObjectID = "ELD-dE-VgN"; */
+"ELD-dE-VgN.text" = "z-";
+
+/* Class = "UILabel"; text = "Your Score"; ObjectID = "EbG-Ni-BAM"; */
+"EbG-Ni-BAM.text" = "Your Score";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "Etw-lF-Uvk"; */
+"Etw-lF-Uvk.text" = "あ";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "Fwe-Lf-oQD"; */
+"Fwe-Lf-oQD.text" = "A";
+
+/* Class = "UILabel"; text = "t-"; ObjectID = "G6W-fJ-Q6E"; */
+"G6W-fJ-Q6E.text" = "t-";
+
+/* Class = "UINavigationItem"; title = "Lesson"; ObjectID = "G7b-1b-Obq"; */
+"G7b-1b-Obq.title" = "Lesson";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "Gmo-Ac-qRu"; */
+"Gmo-Ac-qRu.text" = "あ";
+
+/* Class = "UILabel"; text = "n-"; ObjectID = "Gs7-p0-6SI"; */
+"Gs7-p0-6SI.text" = "n-";
+
+/* Class = "UILabel"; text = "Write sequence"; ObjectID = "HKL-4j-uSV"; */
+"HKL-4j-uSV.text" = "Write sequence";
+
+/* Class = "UILabel"; text = "Question 0 / 10"; ObjectID = "HNf-R8-c4I"; */
+"HNf-R8-c4I.text" = "Question 0 / 10";
+
+/* Class = "UIButton"; normalTitle = "Learn how to read Hiragana"; ObjectID = "HPN-RE-gXs"; */
+"HPN-RE-gXs.normalTitle" = "Learn how to read Hiragana";
+
+/* Class = "UILabel"; text = "Romaji"; ObjectID = "HfF-2M-GZY"; */
+"HfF-2M-GZY.text" = "Romaji";
+
+/* Class = "UILabel"; text = "-a"; ObjectID = "Hrd-xi-5Gw"; */
+"Hrd-xi-5Gw.text" = "-a";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "Htv-Yk-Tfd"; */
+"Htv-Yk-Tfd.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "w-"; ObjectID = "I2Q-xR-zV8"; */
+"I2Q-xR-zV8.text" = "w-";
+
+/* Class = "UILabel"; text = "a"; ObjectID = "I6P-bs-nV7"; */
+"I6P-bs-nV7.text" = "a";
+
+/* Class = "UIButton"; normalTitle = "Learn how to write Hiragana"; ObjectID = "IJq-eE-Pct"; */
+"IJq-eE-Pct.normalTitle" = "Learn how to write Hiragana";
+
+/* Class = "UILabel"; text = "k-"; ObjectID = "IqF-P4-Mnu"; */
+"IqF-P4-Mnu.text" = "k-";
+
+/* Class = "UIButton"; normalTitle = "Thick"; ObjectID = "JNI-yi-2zA"; */
+"JNI-yi-2zA.normalTitle" = "Thick";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "JVo-Me-UUr"; */
+"JVo-Me-UUr.title" = "Back";
+
+/* Class = "UILabel"; text = "Hiragana reading Lesson 1"; ObjectID = "Jmd-ZR-N5k"; */
+"Jmd-ZR-N5k.text" = "Hiragana reading Lesson 1";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "K2A-Kr-q5k"; */
+"K2A-Kr-q5k.text" = "あ";
+
+/* Class = "UILabel"; text = "Translate kana to romaji"; ObjectID = "KTw-CI-VN0"; */
+"KTw-CI-VN0.text" = "Translate to romaji";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "KY6-Ix-qg0"; */
+"KY6-Ix-qg0.text" = "A";
+
+/* Class = "UILabel"; text = "0/10"; ObjectID = "Khw-kS-fBx"; */
+"Khw-kS-fBx.text" = "0/10";
+
+/* Class = "UIButton"; normalTitle = "Learn how to read Katakana"; ObjectID = "Khy-Me-jHX"; */
+"Khy-Me-jHX.normalTitle" = "Learn how to read Katakana";
+
+/* Class = "UILabel"; text = "Writing"; ObjectID = "Ky4-Bx-TGg"; */
+"Ky4-Bx-TGg.text" = "Writing";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "Kzb-GF-4Hw"; */
+"Kzb-GF-4Hw.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Question 0 / 10"; ObjectID = "LVt-pW-9NC"; */
+"LVt-pW-9NC.text" = "Question 0 / 10";
+
+/* Class = "UINavigationItem"; title = "Score"; ObjectID = "Lei-3N-ET0"; */
+"Lei-3N-ET0.title" = "Score";
+
+/* Class = "UINavigationItem"; title = "Lesson"; ObjectID = "Lst-Wy-urv"; */
+"Lst-Wy-urv.title" = "Lesson";
+
+/* Class = "UIButton"; normalTitle = "Erase"; ObjectID = "M3D-PP-m0X"; */
+"M3D-PP-m0X.normalTitle" = "Erase";
+
+/* Class = "UILabel"; text = "p-"; ObjectID = "MLv-Rz-spn"; */
+"MLv-Rz-spn.text" = "p-";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "MRZ-Hl-Pyb"; */
+"MRZ-Hl-Pyb.text" = "A";
+
+/* Class = "UINavigationItem"; title = "Lesson"; ObjectID = "MoU-dZ-10X"; */
+"MoU-dZ-10X.title" = "Lesson";
+
+/* Class = "UILabel"; text = "-a"; ObjectID = "N1K-B1-M9O"; */
+"N1K-B1-M9O.text" = "-a";
+
+/* Class = "UILabel"; text = "s-"; ObjectID = "N1e-po-BUO"; */
+"N1e-po-BUO.text" = "s-";
+
+/* Class = "UILabel"; text = "が"; ObjectID = "N5Q-IK-HH1"; */
+"N5Q-IK-HH1.text" = "が";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "N7Q-l0-EuC"; */
+"N7Q-l0-EuC.text" = "A";
+
+/* Class = "UILabel"; text = "Romaji"; ObjectID = "NKw-yg-epE"; */
+"NKw-yg-epE.text" = "Romaji";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "Nio-iG-P9p"; */
+"Nio-iG-P9p.text" = "A";
+
+/* Class = "UILabel"; text = "Hold to see correction"; ObjectID = "NzK-yy-RUT"; */
+"NzK-yy-RUT.text" = "Hold to see correction";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "O1Q-3P-Qy5"; */
+"O1Q-3P-Qy5.title" = "Back";
+
+/* Class = "UINavigationItem"; title = "Quiz"; ObjectID = "OXq-8k-PGQ"; */
+"OXq-8k-PGQ.title" = "Quiz";
+
+/* Class = "UILabel"; text = "Write sequence"; ObjectID = "Obk-RK-ZYV"; */
+"Obk-RK-ZYV.text" = "Write sequence";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "OfW-GX-52Y"; */
+"OfW-GX-52Y.text" = "あ";
+
+/* Class = "UIButton"; normalTitle = "Introduction"; ObjectID = "Om2-mH-MYb"; */
+"Om2-mH-MYb.normalTitle" = "Introduction";
+
+/* Class = "UILabel"; text = "m-"; ObjectID = "Omz-mc-ktw"; */
+"Omz-mc-ktw.text" = "m-";
+
+/* Class = "UITabBarItem"; title = "Katakana"; ObjectID = "PST-XA-PDT"; */
+"PST-XA-PDT.title" = "Katakana";
+
+/* Class = "UILabel"; text = "Hold to see correction"; ObjectID = "Png-Sx-XEH"; */
+"Png-Sx-XEH.text" = "Hold to see correction";
+
+/* Class = "UINavigationItem"; title = "Quiz"; ObjectID = "QFR-DH-6BM"; */
+"QFR-DH-6BM.title" = "Quiz";
+
+/* Class = "UILabel"; text = "d-"; ObjectID = "QKH-Mh-3tt"; */
+"QKH-Mh-3tt.text" = "d-";
+
+/* Class = "UILabel"; text = "kya"; ObjectID = "Qv1-D3-ndA"; */
+"Qv1-D3-ndA.text" = "kya";
+
+/* Class = "UILabel"; text = "w-"; ObjectID = "R39-YW-SgK"; */
+"R39-YW-SgK.text" = "w-";
+
+/* Class = "UILabel"; text = "by-"; ObjectID = "RXT-m1-eyx"; */
+"RXT-m1-eyx.text" = "by-";
+
+/* Class = "UILabel"; text = "Hiragana"; ObjectID = "Rhn-F6-Y1T"; */
+"Rhn-F6-Y1T.text" = "Hiragana";
+
+/* Class = "UILabel"; text = "Correct answer"; ObjectID = "RqC-nw-EyR"; */
+"RqC-nw-EyR.text" = "Correct answer";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "Ryw-RN-Bvy"; */
+"Ryw-RN-Bvy.text" = "あ";
+
+/* Class = "UILabel"; text = "Translate romaji to kana"; ObjectID = "Rz7-qn-cau"; */
+"Rz7-qn-cau.text" = "Translate to kana";
+
+/* Class = "UILabel"; text = "0/104"; ObjectID = "Sgo-cu-7CK"; */
+"Sgo-cu-7CK.text" = "0/104";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Sje-0S-ZTJ"; */
+"Sje-0S-ZTJ.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "TFS-8Y-IaQ"; */
+"TFS-8Y-IaQ.text" = "A";
+
+/* Class = "UINavigationItem"; title = "Quiz"; ObjectID = "TlW-pd-Yye"; */
+"TlW-pd-Yye.title" = "Quiz";
+
+/* Class = "UILabel"; text = "n-"; ObjectID = "Uq1-b9-InP"; */
+"Uq1-b9-InP.text" = "n-";
+
+/* Class = "UILabel"; text = "ch-"; ObjectID = "UzG-df-YmW"; */
+"UzG-df-YmW.text" = "ch-";
+
+/* Class = "UINavigationItem"; title = "Lesson"; ObjectID = "V3O-3J-RLu"; */
+"V3O-3J-RLu.title" = "Lesson";
+
+/* Class = "UILabel"; text = "Hiragana reading Lesson 1"; ObjectID = "VDu-sm-93B"; */
+"VDu-sm-93B.text" = "Hiragana reading Lesson 1";
+
+/* Class = "UILabel"; text = "t-"; ObjectID = "VVl-4A-CYf"; */
+"VVl-4A-CYf.text" = "t-";
+
+/* Class = "UILabel"; text = "Question 0 / 10"; ObjectID = "VYH-4g-FjI"; */
+"VYH-4g-FjI.text" = "Question 0 / 10";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "VbD-hg-EN3"; */
+"VbD-hg-EN3.title" = "Back";
+
+/* Class = "UIViewController"; title = "Lessons"; ObjectID = "Veh-9p-w2n"; */
+"Veh-9p-w2n.title" = "Lessons";
+
+/* Class = "UILabel"; text = "b-"; ObjectID = "VjN-R2-Kln"; */
+"VjN-R2-Kln.text" = "b-";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "VkD-Oq-ecp"; */
+"VkD-Oq-ecp.text" = "A";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "Vn5-eT-6Ed"; */
+"Vn5-eT-6Ed.text" = "あ";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "WId-pj-qKZ"; */
+"WId-pj-qKZ.text" = "あ";
+
+/* Class = "UINavigationItem"; title = "Lessons"; ObjectID = "WbM-tf-iAC"; */
+"WbM-tf-iAC.title" = "Lessons";
+
+/* Class = "UILabel"; text = "Yoon"; ObjectID = "Wqv-Wp-BzA"; */
+"Wqv-Wp-BzA.text" = "Yoon";
+
+/* Class = "UILabel"; text = "my-"; ObjectID = "Wxx-i8-5Ov"; */
+"Wxx-i8-5Ov.text" = "my-";
+
+/* Class = "UINavigationItem"; title = "Katakana Charts"; ObjectID = "Wzr-PV-Qfl"; */
+"Wzr-PV-Qfl.title" = "Katakana Charts";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "X4a-x1-dQf"; */
+"X4a-x1-dQf.text" = "あ";
+
+/* Class = "UILabel"; text = "かな　鳥居"; ObjectID = "XDV-N5-vmd"; */
+"XDV-N5-vmd.text" = "かな　鳥居";
+
+/* Class = "UILabel"; text = "Hold to see correction"; ObjectID = "Xnt-gL-I6b"; */
+"Xnt-gL-I6b.text" = "Hold to see correction";
+
+/* Class = "UILabel"; text = "y-"; ObjectID = "XxD-i2-S05"; */
+"XxD-i2-S05.text" = "y-";
+
+/* Class = "UILabel"; text = "Question 0 / 10"; ObjectID = "Y8G-Mz-Pz4"; */
+"Y8G-Mz-Pz4.text" = "Question 0 / 10";
+
+/* Class = "UILabel"; text = "Hiragana writing Lesson 1"; ObjectID = "YZe-X8-sWE"; */
+"YZe-X8-sWE.text" = "Hiragana writing Lesson 1";
+
+/* Class = "UILabel"; text = "sh-"; ObjectID = "Yaa-Qk-uUY"; */
+"Yaa-Qk-uUY.text" = "sh-";
+
+/* Class = "UILabel"; text = "j-"; ObjectID = "YdC-WP-Jbs"; */
+"YdC-WP-Jbs.text" = "j-";
+
+/* Class = "UINavigationItem"; title = "Quiz"; ObjectID = "YlR-Rf-ISu"; */
+"YlR-Rf-ISu.title" = "Quiz";
+
+/* Class = "UILabel"; text = "きゃ"; ObjectID = "YxZ-iy-3mk"; */
+"YxZ-iy-3mk.text" = "きゃ";
+
+/* Class = "UILabel"; text = "Gojuon"; ObjectID = "Zl7-R9-PNP"; */
+"Zl7-R9-PNP.text" = "Gojuon";
+
+/* Class = "UILabel"; text = "Translate kana to romaji"; ObjectID = "Zof-g4-KHf"; */
+"Zof-g4-KHf.text" = "Translate to romaji";
+
+/* Class = "UILabel"; text = "Is that right ?"; ObjectID = "Zsu-2h-vNY"; */
+"Zsu-2h-vNY.text" = "Is that right ?";
+
+/* Class = "UILabel"; text = "Correct answer"; ObjectID = "a03-nV-7dJ"; */
+"a03-nV-7dJ.text" = "Correct answer";
+
+/* Class = "UIButton"; normalTitle = "Previous"; ObjectID = "aXQ-0I-i8Y"; */
+"aXQ-0I-i8Y.normalTitle" = "Previous";
+
+/* Class = "UIButton"; normalTitle = "Write"; ObjectID = "ajY-eg-33d"; */
+"ajY-eg-33d.normalTitle" = "Write";
+
+/* Class = "UIButton"; normalTitle = "Thin"; ObjectID = "alx-A4-yDg"; */
+"alx-A4-yDg.normalTitle" = "Thin";
+
+/* Class = "UILabel"; text = "All"; ObjectID = "avv-gU-2NF"; */
+"avv-gU-2NF.text" = "All";
+
+/* Class = "UILabel"; text = "Romaji"; ObjectID = "b3K-lC-8bA"; */
+"b3K-lC-8bA.text" = "Romaji";
+
+/* Class = "UIButton"; normalTitle = "Reset data"; ObjectID = "b6B-3P-UeN"; */
+"b6B-3P-UeN.normalTitle" = "Reset data";
+
+/* Class = "UILabel"; text = "ア"; ObjectID = "bP8-EL-64o"; */
+"bP8-EL-64o.text" = "ア";
+
+/* Class = "UILabel"; text = "-a"; ObjectID = "bQT-Lo-ytK"; */
+"bQT-Lo-ytK.text" = "-a";
+
+/* Class = "UITextView"; text = "The first step in learning Japanese is to know how to read and write. In Japan, two syllabaries are used for this: hiragana and katakana, called kana, and ideograms, called kanji.\nTo learn kana there is no secret, you have to learn them by heart.\nThis application aims to help you in learning kana. For that, to make the task easier there is in this application a section \"lessons\". It allows you to learn step by step to recognize hiragana and then katakana. It is very practical and it is advisable to repeat them. For an overview, you can go to the \"hiragana\" and \"katakana\" sections, see a particular character, know its writing, listen to its pronunciation and practice writing it. Finally a Quiz section will allow you to practice when you get to know hiragana and katakana better."; ObjectID = "bbo-1N-4Bk"; */
+"bbo-1N-4Bk.text" = "The first step in learning Japanese is to know how to read and write. In Japan, two syllabaries are used for this: hiragana and katakana, called kana, and ideograms, called kanji.\nTo learn kana there is no secret, you have to learn them by heart.\nThis application aims to help you in learning kana. For that, to make the task easier there is in this application a section \"lessons\". It allows you to learn step by step to recognize hiragana and then katakana. It is very practical and it is advisable to repeat them. For an overview, you can go to the \"hiragana\" and \"katakana\" sections, see a particular character, know its writing, listen to its pronunciation and practice writing it. Finally a Quiz section will allow you to practice when you get to know hiragana and katakana better.";
+
+/* Class = "UISegmentedControl"; bdF-OA-M2F.segmentTitles[0] = "Easy"; ObjectID = "bdF-OA-M2F"; */
+"bdF-OA-M2F.segmentTitles[0]" = "Easy";
+
+/* Class = "UISegmentedControl"; bdF-OA-M2F.segmentTitles[1] = "Hard"; ObjectID = "bdF-OA-M2F"; */
+"bdF-OA-M2F.segmentTitles[1]" = "Hard";
+
+/* Class = "UILabel"; text = "Write correct kana"; ObjectID = "bkA-Hg-eAY"; */
+"bkA-Hg-eAY.text" = "Write correct kana";
+
+/* Class = "UILabel"; text = "About Kana"; ObjectID = "c3G-Fp-JGw"; */
+"c3G-Fp-JGw.text" = "About Kana";
+
+/* Class = "UILabel"; text = "Find correct romaji for kana"; ObjectID = "cCM-lr-Qkq"; */
+"cCM-lr-Qkq.text" = "Find correct romaji";
+
+/* Class = "UILabel"; text = "Hiragana writing Lesson 1"; ObjectID = "cKZ-lq-duq"; */
+"cKZ-lq-duq.text" = "Hiragana writing Lesson 1";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "cNL-bL-LBJ"; */
+"cNL-bL-LBJ.normalTitle" = "Ok";
+
+/* Class = "UILabel"; text = "m-"; ObjectID = "cOM-SI-vU6"; */
+"cOM-SI-vU6.text" = "m-";
+
+/* Class = "UILabel"; text = "ga"; ObjectID = "cco-XE-FbG"; */
+"cco-XE-FbG.text" = "ga";
+
+/* Class = "UILabel"; text = "ミャ"; ObjectID = "cd5-lM-9A9"; */
+"cd5-lM-9A9.text" = "ミャ";
+
+/* Class = "UILabel"; text = "b-"; ObjectID = "d2e-ZJ-sgd"; */
+"d2e-ZJ-sgd.text" = "b-";
+
+/* Class = "UIButton"; normalTitle = "Erase"; ObjectID = "dNN-am-xlF"; */
+"dNN-am-xlF.normalTitle" = "Erase";
+
+/* Class = "UILabel"; text = "Hiragana Lesson 1"; ObjectID = "dYu-uI-bPV"; */
+"dYu-uI-bPV.text" = "Hiragana Lesson 1";
+
+/* Class = "UILabel"; text = "py-"; ObjectID = "dh1-2H-E1m"; */
+"dh1-2H-E1m.text" = "py-";
+
+/* Class = "UILabel"; text = "0 / 10"; ObjectID = "dqm-HH-0pi"; */
+"dqm-HH-0pi.text" = "0 / 10";
+
+/* Class = "UILabel"; text = "Hiragana writing Lesson 1"; ObjectID = "dtW-6p-2MB"; */
+"dtW-6p-2MB.text" = "Hiragana writing Lesson 1";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "e0g-Lg-8Qs"; */
+"e0g-Lg-8Qs.title" = "Back";
+
+/* Class = "UILabel"; text = "Romaji"; ObjectID = "eRt-hx-f2S"; */
+"eRt-hx-f2S.text" = "Romaji";
+
+/* Class = "UILabel"; text = "a"; ObjectID = "eVd-Vz-0zI"; */
+"eVd-Vz-0zI.text" = "a";
+
+/* Class = "UILabel"; text = "Multiple choice"; ObjectID = "ej9-Do-t6W"; */
+"ej9-Do-t6W.text" = "Multiple choice";
+
+/* Class = "UITextView"; text = "To write and read Japanese, we use kana and kanji, what interests us here are kana. They are syllabaries, which means that the Japanese language does not have an alphabet in the form we know, for most of us. Hiragana and katakana are equivalent in their \"simple\" form to a two-letter syllable, except for the \"n\". In their simple form, hiragana and katakana consist of 46 characters of different writing with identical pronociations. To write these characters, there is a specific order of the lines, very important. The Hiragana are used to write the typical Japanese words and the Katakana the words of foreign origin."; ObjectID = "ekg-Om-uHT"; */
+"ekg-Om-uHT.text" = "To write and read Japanese, we use kana and kanji, what interests us here are kana. They are syllabaries, which means that the Japanese language does not have an alphabet in the form we know, for most of us. Hiragana and katakana are equivalent in their \"simple\" form to a two-letter syllable, except for the \"n\". In their simple form, hiragana and katakana consist of 46 characters of different writing with identical pronociations. To write these characters, there is a specific order of the lines, very important. The Hiragana are used to write the typical Japanese words and the Katakana the words of foreign origin.";
+
+/* Class = "UILabel"; text = "ry-"; ObjectID = "erc-ns-yNu"; */
+"erc-ns-yNu.text" = "ry-";
+
+/* Class = "UILabel"; text = "Find correct kana for romaji"; ObjectID = "fGp-jw-BHR"; */
+"fGp-jw-BHR.text" = "Find correct kana";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "fTA-f7-IRk"; */
+"fTA-f7-IRk.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Thick"; ObjectID = "fat-VB-M2W"; */
+"fat-VB-M2W.normalTitle" = "Thick";
+
+/* Class = "UILabel"; text = "Correct answer"; ObjectID = "fbt-U7-3NC"; */
+"fbt-U7-3NC.text" = "Correct answer";
+
+/* Class = "UIButton"; normalTitle = "Go"; ObjectID = "ftB-LE-2Zz"; */
+"ftB-LE-2Zz.normalTitle" = "Go";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "fxk-F6-2Vc"; */
+"fxk-F6-2Vc.text" = "A";
+
+/* Class = "UILabel"; text = "Selection"; ObjectID = "gYq-eq-gAV"; */
+"gYq-eq-gAV.text" = "Selection";
+
+/* Class = "UILabel"; text = "r-"; ObjectID = "gjO-Bg-tl4"; */
+"gjO-Bg-tl4.text" = "r-";
+
+/* Class = "UILabel"; text = "0 / 10"; ObjectID = "gm6-ds-H07"; */
+"gm6-ds-H07.text" = "0 / 10";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "h6h-sI-wtT"; */
+"h6h-sI-wtT.text" = "あ";
+
+/* Class = "UILabel"; text = "ky-"; ObjectID = "hEB-Ea-reL"; */
+"hEB-Ea-reL.text" = "ky-";
+
+/* Class = "UILabel"; text = "Gojuon"; ObjectID = "hGO-Sc-xLC"; */
+"hGO-Sc-xLC.text" = "Gojuon";
+
+/* Class = "UILabel"; text = "ky-"; ObjectID = "hsp-Mv-Ucr"; */
+"hsp-Mv-Ucr.text" = "ky-";
+
+/* Class = "UIButton"; normalTitle = "Write"; ObjectID = "hwj-id-UQu"; */
+"hwj-id-UQu.normalTitle" = "Write";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "ibq-Vb-u1o"; */
+"ibq-Vb-u1o.normalTitle" = "Return";
+
+/* Class = "UILabel"; text = "gy-"; ObjectID = "in7-nS-Oyw"; */
+"in7-nS-Oyw.text" = "gy-";
+
+/* Class = "UILabel"; text = "j-"; ObjectID = "ixl-vV-Zjb"; */
+"ixl-vV-Zjb.text" = "j-";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "j0Y-Dz-RHy"; */
+"j0Y-Dz-RHy.normalTitle" = "Continue";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "k5B-L3-THe"; */
+"k5B-L3-THe.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "About Kana"; ObjectID = "kBJ-uW-e6B"; */
+"kBJ-uW-e6B.normalTitle" = "About Kana";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "kKb-sb-XeP"; */
+"kKb-sb-XeP.title" = "Home";
+
+/* Class = "UILabel"; text = "r-"; ObjectID = "ket-57-Rf8"; */
+"ket-57-Rf8.text" = "r-";
+
+/* Class = "UILabel"; text = "Question 0 / 10"; ObjectID = "kgC-TE-HQ5"; */
+"kgC-TE-HQ5.text" = "Question 0 / 10";
+
+/* Class = "UITabBarItem"; title = "Hiragana"; ObjectID = "l38-76-Uhu"; */
+"l38-76-Uhu.title" = "Hiragana";
+
+/* Class = "UILabel"; text = "Hiragana Lesson 1"; ObjectID = "lFF-Rd-Al1"; */
+"lFF-Rd-Al1.text" = "Hiragana Lesson 1";
+
+/* Class = "UILabel"; text = "0 / 10"; ObjectID = "llM-6L-N1U"; */
+"llM-6L-N1U.text" = "0 / 10";
+
+/* Class = "UIButton"; normalTitle = "Thin"; ObjectID = "lyi-6I-MaA"; */
+"lyi-6I-MaA.normalTitle" = "Thin";
+
+/* Class = "UILabel"; text = "p-"; ObjectID = "lzQ-dL-opr"; */
+"lzQ-dL-opr.text" = "p-";
+
+/* Class = "UITabBarItem"; title = "Lessons"; ObjectID = "mQq-Ya-Q7f"; */
+"mQq-Ya-Q7f.title" = "Lessons";
+
+/* Class = "UILabel"; text = "ry-"; ObjectID = "mk5-BZ-Hca"; */
+"mk5-BZ-Hca.text" = "ry-";
+
+/* Class = "UIButton"; normalTitle = "Listen"; ObjectID = "moa-yD-W0v"; */
+"moa-yD-W0v.normalTitle" = "Listen";
+
+/* Class = "UILabel"; text = "k-"; ObjectID = "n7K-30-bLZ"; */
+"n7K-30-bLZ.text" = "k-";
+
+/* Class = "UILabel"; text = "hy-"; ObjectID = "nCc-Ou-8wq"; */
+"nCc-Ou-8wq.text" = "hy-";
+
+/* Class = "UILabel"; text = "a"; ObjectID = "nOr-Qb-e7D"; */
+"nOr-Qb-e7D.text" = "a";
+
+/* Class = "UIButton"; normalTitle = "Thin"; ObjectID = "njP-hE-LTb"; */
+"njP-hE-LTb.normalTitle" = "Thin";
+
+/* Class = "UILabel"; text = "Yoon"; ObjectID = "nka-6J-pn1"; */
+"nka-6J-pn1.text" = "Yoon";
+
+/* Class = "UINavigationItem"; title = "Hiragana Charts"; ObjectID = "noM-HA-vcL"; */
+"noM-HA-vcL.title" = "Hiragana Charts";
+
+/* Class = "UIButton"; normalTitle = "Learn how to write Katakana"; ObjectID = "ny1-ze-lOw"; */
+"ny1-ze-lOw.normalTitle" = "Learn how to write Katakana";
+
+/* Class = "UILabel"; text = "Correct answer"; ObjectID = "oKz-q9-onE"; */
+"oKz-q9-onE.text" = "Correct answer";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "oaN-ZR-TFC"; */
+"oaN-ZR-TFC.normalTitle" = "Ok";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "onK-2U-bF6"; */
+"onK-2U-bF6.text" = "あ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "p78-Nl-NgR"; */
+"p78-Nl-NgR.title" = "Back";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "pUn-DN-Mfp"; */
+"pUn-DN-Mfp.text" = "あ";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "pVu-Nr-LOC"; */
+"pVu-Nr-LOC.text" = "Settings";
+
+/* Class = "UINavigationItem"; title = "Lesson"; ObjectID = "pdz-Ay-zxN"; */
+"pdz-Ay-zxN.title" = "Lesson";
+
+/* Class = "UILabel"; text = "あ　い　う　え　お"; ObjectID = "pkj-wL-371"; */
+"pkj-wL-371.text" = "あ　い　う　え　お";
+
+/* Class = "UILabel"; text = "Hiragana"; ObjectID = "pp6-bQ-8Uz"; */
+"pp6-bQ-8Uz.text" = "Hiragana";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "q8q-pt-rxj"; */
+"q8q-pt-rxj.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "きゃ"; ObjectID = "q9f-0H-MlO"; */
+"q9f-0H-MlO.text" = "きゃ";
+
+/* Class = "UILabel"; text = "が"; ObjectID = "qqm-Wv-4xk"; */
+"qqm-Wv-4xk.text" = "が";
+
+/* Class = "UILabel"; text = "Write correct kana"; ObjectID = "quR-Rs-EU2"; */
+"quR-Rs-EU2.text" = "Write correct kana";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "qyi-4o-Gix"; */
+"qyi-4o-Gix.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "r63-C8-4pb"; */
+"r63-C8-4pb.text" = "A";
+
+/* Class = "UIButton"; normalTitle = "Thick"; ObjectID = "rAo-QR-grs"; */
+"rAo-QR-grs.normalTitle" = "Thick";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "s6T-7N-AmQ"; */
+"s6T-7N-AmQ.title" = "Back";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "sOQ-F7-phn"; */
+"sOQ-F7-phn.text" = "A";
+
+/* Class = "UILabel"; text = "Question 0 / 10"; ObjectID = "sOa-hO-hai"; */
+"sOa-hO-hai.text" = "Question 0 / 10";
+
+/* Class = "UILabel"; text = "あ"; ObjectID = "sdY-mB-Cgp"; */
+"sdY-mB-Cgp.text" = "あ";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "snB-5U-o7o"; */
+"snB-5U-o7o.normalTitle" = "Continue";
+
+/* Class = "UITabBarItem"; title = "Quiz"; ObjectID = "ssT-GO-swR"; */
+"ssT-GO-swR.title" = "Quiz";
+
+/* Class = "UILabel"; text = "ga"; ObjectID = "swe-KW-PlR"; */
+"swe-KW-PlR.text" = "ga";
+
+/* Class = "UIButton"; normalTitle = "Thin"; ObjectID = "tF4-u4-LUi"; */
+"tF4-u4-LUi.normalTitle" = "Thin";
+
+/* Class = "UIButton"; normalTitle = "Erase"; ObjectID = "tIo-hs-QXK"; */
+"tIo-hs-QXK.normalTitle" = "Erase";
+
+/* Class = "UILabel"; text = "ガ"; ObjectID = "tXK-eS-leQ"; */
+"tXK-eS-leQ.text" = "ガ";
+
+/* Class = "UIButton"; normalTitle = "Erase"; ObjectID = "u3x-5w-0Sn"; */
+"u3x-5w-0Sn.normalTitle" = "Erase";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "u4f-W5-AcM"; */
+"u4f-W5-AcM.normalTitle" = "Continue";
+
+/* Class = "UISegmentedControl"; uCI-yG-r9V.segmentTitles[0] = "Hiragana"; ObjectID = "uCI-yG-r9V"; */
+"uCI-yG-r9V.segmentTitles[0]" = "Hiragana";
+
+/* Class = "UISegmentedControl"; uCI-yG-r9V.segmentTitles[1] = "Katakana"; ObjectID = "uCI-yG-r9V"; */
+"uCI-yG-r9V.segmentTitles[1]" = "Katakana";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "uDL-gP-ftA"; */
+"uDL-gP-ftA.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "h-"; ObjectID = "upY-SR-VgR"; */
+"upY-SR-VgR.text" = "h-";
+
+/* Class = "UILabel"; text = "キャ"; ObjectID = "uxQ-Rz-c3P"; */
+"uxQ-Rz-c3P.text" = "キャ";
+
+/* Class = "UILabel"; text = "g-"; ObjectID = "vMA-Es-40O"; */
+"vMA-Es-40O.text" = "g-";
+
+/* Class = "UILabel"; text = "s-"; ObjectID = "vna-8d-hg1"; */
+"vna-8d-hg1.text" = "s-";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "vvC-mZ-B6c"; */
+"vvC-mZ-B6c.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "w0E-tu-s90"; */
+"w0E-tu-s90.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "z-"; ObjectID = "wTv-x7-xQj"; */
+"wTv-x7-xQj.text" = "z-";
+
+/* Class = "UILabel"; text = "Question 0 / 10"; ObjectID = "waX-YB-GUu"; */
+"waX-YB-GUu.text" = "Question 0 / 10";
+
+/* Class = "UILabel"; text = "py-"; ObjectID = "yAG-VA-Faf"; */
+"yAG-VA-Faf.text" = "py-";
+
+/* Class = "UILabel"; text = "Lesson completed"; ObjectID = "yBU-R6-ive"; */
+"yBU-R6-ive.text" = "Lesson completed";
+
+/* Class = "UILabel"; text = "a"; ObjectID = "yDr-Cl-87b"; */
+"yDr-Cl-87b.text" = "a";
+
+/* Class = "UILabel"; text = "Find correct kana for romaji"; ObjectID = "yTG-Ei-GK2"; */
+"yTG-Ei-GK2.text" = "Find correct kana";
+
+/* Class = "UILabel"; text = "d-"; ObjectID = "zyT-dV-uwl"; */
+"zyT-dV-uwl.text" = "d-";

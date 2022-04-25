@@ -1,0 +1,6 @@
+framework module Pods_Kana_Torii {
+  umbrella header "Pods-Kana Torii-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GradientButtonSwift (1.0.2)
+
+DEPENDENCIES:
+  - GradientButtonSwift
+
+SPEC REPOS:
+  trunk:
+    - GradientButtonSwift
+
+SPEC CHECKSUMS:
+  GradientButtonSwift: b2231f7ccb0d2c817409ca20634f7a430876f7d5
+
+PODFILE CHECKSUM: 673a9db9c63bf56fe57f40f21947d18c7d34677f
+
+COCOAPODS: 1.10.0

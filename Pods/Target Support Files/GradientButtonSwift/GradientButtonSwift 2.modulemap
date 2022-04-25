@@ -1,0 +1,6 @@
+framework module GradientButtonSwift {
+  umbrella header "GradientButtonSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

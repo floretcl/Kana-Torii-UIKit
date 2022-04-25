@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kana Torii.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>5A6594DFA6C7D36F808B43AB69ACA1C3150D8B35</string>
+				<key>dateExpires</key>
+				<string>26/11/2021</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<true/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>5A6594DFA6C7D36F808B43AB69ACA1C3150D8B35</string>
+						<key>dateExpires</key>
+						<string>26/11/2021</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GradientButtonSwift.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>X56656LMAV</string>
+						<key>name</key>
+						<string>Clement FLORET</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>X56656LMAV.fr.clementfloret.Kana-Torii</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>X56656LMAV</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>X56656LMAV.fr.clementfloret.Kana-Torii</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Kana Torii.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>e2ea0d1f-29d7-40c4-8e76-a1f7f9929f71</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: fr.clementfloret.Kana-Torii</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>X56656LMAV</string>
+				<key>name</key>
+				<string>Clement FLORET</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

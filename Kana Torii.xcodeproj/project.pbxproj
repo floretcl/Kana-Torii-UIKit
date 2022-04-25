@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E017A722574183B009C263C /* KatakanaRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7E017A712574183B009C263C /* KatakanaRecognizer.mlmodel */; };
+		7E3B657424F0567200A441BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B657324F0567200A441BC /* AppDelegate.swift */; };
+		7E3B657624F0567200A441BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B657524F0567200A441BC /* SceneDelegate.swift */; };
+		7E3B657B24F0567200A441BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B657924F0567200A441BC /* Main.storyboard */; };
+		7E3B658024F0567200A441BC /* Kana_Torii.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B657E24F0567200A441BC /* Kana_Torii.xcdatamodeld */; };
+		7E3B658224F0567500A441BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B658124F0567500A441BC /* Assets.xcassets */; };
+		7E3B658524F0567500A441BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B658324F0567500A441BC /* LaunchScreen.storyboard */; };
+		7E3B659024F0567500A441BC /* Kana_ToriiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B658F24F0567500A441BC /* Kana_ToriiTests.swift */; };
+		7E3B659B24F0567500A441BC /* Kana_ToriiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B659A24F0567500A441BC /* Kana_ToriiUITests.swift */; };
+		7E3B65AD24F0578800A441BC /* AboutKana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65AC24F0578800A441BC /* AboutKana.swift */; };
+		7E3B65B424F057F000A441BC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65B324F057F000A441BC /* Home.swift */; };
+		7E3B65B624F0610C00A441BC /* HomeLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65B524F0610C00A441BC /* HomeLessons.swift */; };
+		7E3B65B824F0612400A441BC /* HomeQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65B724F0612400A441BC /* HomeQuiz.swift */; };
+		7E3B65BA24F0612D00A441BC /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65B924F0612D00A441BC /* Introduction.swift */; };
+		7E3B65BC24F0613400A441BC /* KanaLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65BB24F0613400A441BC /* KanaLessons.swift */; };
+		7E3B65BE24F0613D00A441BC /* KanaQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65BD24F0613D00A441BC /* KanaQuiz.swift */; };
+		7E3B65C024F0628400A441BC /* KanaQuizKanaMCQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65BF24F0628400A441BC /* KanaQuizKanaMCQ.swift */; };
+		7E3B65C224F0628E00A441BC /* KanaQuizRomajiMCQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65C124F0628E00A441BC /* KanaQuizRomajiMCQ.swift */; };
+		7E3B65C424F0629A00A441BC /* KanaQuizWriting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65C324F0629900A441BC /* KanaQuizWriting.swift */; };
+		7E3B65C624F062A500A441BC /* KatakanaCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65C524F062A500A441BC /* KatakanaCharts.swift */; };
+		7E3B65C824F062B300A441BC /* LessonLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65C724F062B300A441BC /* LessonLearn.swift */; };
+		7E3B65CA24F062BE00A441BC /* LessonLearnWriting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65C924F062BE00A441BC /* LessonLearnWriting.swift */; };
+		7E3B65CC24F062CF00A441BC /* LessonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65CB24F062CE00A441BC /* LessonTest.swift */; };
+		7E3B65CE24F062D800A441BC /* LessonTestRomaji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65CD24F062D800A441BC /* LessonTestRomaji.swift */; };
+		7E3B65D024F062E600A441BC /* LessonTestWriting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65CF24F062E500A441BC /* LessonTestWriting.swift */; };
+		7E3B65D224F062F300A441BC /* LessonTestWritingFirstTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65D124F062F300A441BC /* LessonTestWritingFirstTest.swift */; };
+		7E3B65D424F0630800A441BC /* LessonTestWritingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65D324F0630800A441BC /* LessonTestWritingPractice.swift */; };
+		7E3B65D624F0635F00A441BC /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65D524F0635F00A441BC /* Chart.swift */; };
+		7E3B65D824F0636800A441BC /* ChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65D724F0636800A441BC /* ChartService.swift */; };
+		7E3B65DA24F0637400A441BC /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65D924F0637400A441BC /* Detail.swift */; };
+		7E3B65DC24F0638900A441BC /* Kana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65DB24F0638900A441BC /* Kana.swift */; };
+		7E3B65DE24F0639400A441BC /* KanaToRomaji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65DD24F0639400A441BC /* KanaToRomaji.swift */; };
+		7E3B65E024F063A100A441BC /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65DF24F063A100A441BC /* Lesson.swift */; };
+		7E3B65E224F063AC00A441BC /* LessonKana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65E124F063AC00A441BC /* LessonKana.swift */; };
+		7E3B65E424F063B400A441BC /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65E324F063B400A441BC /* Lessons.swift */; };
+		7E3B65E624F063C200A441BC /* LessonsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65E524F063C200A441BC /* LessonsService.swift */; };
+		7E3B65E824F063D000A441BC /* LinesKanaNameFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65E724F063D000A441BC /* LinesKanaNameFile.swift */; };
+		7E3B65EA24F063DB00A441BC /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65E924F063DB00A441BC /* Quiz.swift */; };
+		7E3B65EC24F063E600A441BC /* Romaji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65EB24F063E600A441BC /* Romaji.swift */; };
+		7E3B65EE24F063F800A441BC /* RomajiToKana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65ED24F063F800A441BC /* RomajiToKana.swift */; };
+		7E3B65F024F0640C00A441BC /* SuggestionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65EF24F0640C00A441BC /* SuggestionService.swift */; };
+		7E3B65F224F0641600A441BC /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65F124F0641600A441BC /* Test.swift */; };
+		7E3B65F424F0646800A441BC /* WriteBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65F324F0646800A441BC /* WriteBoardView.swift */; };
+		7E3B65F624F0647100A441BC /* SuggestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65F524F0647100A441BC /* SuggestionCollectionViewCell.swift */; };
+		7E3B65F824F0647C00A441BC /* MyLessonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65F724F0647C00A441BC /* MyLessonViewCell.swift */; };
+		7E3B65FA24F0648800A441BC /* MyKanaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65F924F0648800A441BC /* MyKanaCollectionViewCell.swift */; };
+		7E3B65FC24F0649100A441BC /* LessonButtonKatakana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65FB24F0649100A441BC /* LessonButtonKatakana.swift */; };
+		7E3B65FE24F0649A00A441BC /* LessonButtonHiragana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65FD24F0649A00A441BC /* LessonButtonHiragana.swift */; };
+		7E3B660024F064A300A441BC /* LabelRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B65FF24F064A300A441BC /* LabelRounded.swift */; };
+		7E3B660224F064AE00A441BC /* KanaChartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B660124F064AE00A441BC /* KanaChartButton.swift */; };
+		7E3B660424F064DF00A441BC /* CorrectionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B660324F064DF00A441BC /* CorrectionLabel.swift */; };
+		7E3B660624F064ED00A441BC /* CircledButtonYellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B660524F064ED00A441BC /* CircledButtonYellow.swift */; };
+		7E3B660824F064F700A441BC /* CircledButtonRed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B660724F064F700A441BC /* CircledButtonRed.swift */; };
+		7E3B660A24F0686B00A441BC /* DetailKana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B660924F0686B00A441BC /* DetailKana.swift */; };
+		7E3B660C24F0687300A441BC /* EndLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B660B24F0687300A441BC /* EndLesson.swift */; };
+		7E3B660E24F0689B00A441BC /* EndQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B660D24F0689B00A441BC /* EndQuiz.swift */; };
+		7E3B661024F068A500A441BC /* HiraganaCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B660F24F068A500A441BC /* HiraganaCharts.swift */; };
+		7E3B661224F068BC00A441BC /* WriteBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B661124F068BC00A441BC /* WriteBoard.swift */; };
+		7E469AA62571527B00C94E9B /* Pods_Kana_Torii.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA7337CE6226AB171EF8736 /* Pods_Kana_Torii.framework */; };
+		7E54C4E125079B3E0002124D /* HeaderChartViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E54C4E025079B3E0002124D /* HeaderChartViewCell.swift */; };
+		7E681D15250933E7005BD57E /* MyKanaYoonFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E681D14250933E7005BD57E /* MyKanaYoonFlowLayout.swift */; };
+		7E681D17250955E8005BD57E /* MyKanaFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E681D16250955E8005BD57E /* MyKanaFlowLayout.swift */; };
+		7E68CDF42519E378003C2E61 /* SuggestionTestFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68CDF22519E378003C2E61 /* SuggestionTestFlowLayout.swift */; };
+		7E69171D24F1429C002B7544 /* Wrong Beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E69171C24F1429C002B7544 /* Wrong Beep.mp3 */; };
+		7E69171F24F142A4002B7544 /* Correct Beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E69171E24F142A4002B7544 /* Correct Beep.mp3 */; };
+		7E7646A9250F7ED1002BA546 /* HomeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7646A8250F7ED1002BA546 /* HomeButtons.swift */; };
+		7E7646AD25111DDF002BA546 /* SuggestionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7646AC25111DDF002BA546 /* SuggestionFlowLayout.swift */; };
+		7E79A64D253487B00055B46A /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79A64C253487B00055B46A /* ImageProcessor.swift */; };
+		7EB34947253344C80022A662 /* HiraganaRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7EB34946253344C80022A662 /* HiraganaRecognizer.mlmodel */; };
+		7EC3FA3D257155EE008D4ACB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC3FA3C257155EE008D4ACB /* StoreKit.framework */; };
+		7EC3FA3F257155F4008D4ACB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC3FA3E257155F4008D4ACB /* GameKit.framework */; };
+		7EEA76B024FFD5E700FA9D95 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EEA76B224FFD5E700FA9D95 /* Localizable.strings */; };
+		7EFFCF7C24F1895F00FADB39 /* LessonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFFCF7B24F1895F00FADB39 /* LessonData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E3B658C24F0567500A441BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3B656824F0567200A441BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3B656F24F0567200A441BC;
+			remoteInfo = "Kana Torii";
+		};
+		7E3B659724F0567500A441BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3B656824F0567200A441BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3B656F24F0567200A441BC;
+			remoteInfo = "Kana Torii";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D2D6DD8F9AFA14FCFF055B6 /* Pods-Kana Torii.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kana Torii.release.xcconfig"; path = "Target Support Files/Pods-Kana Torii/Pods-Kana Torii.release.xcconfig"; sourceTree = "<group>"; };
+		1DA7337CE6226AB171EF8736 /* Pods_Kana_Torii.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kana_Torii.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E017A712574183B009C263C /* KatakanaRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = KatakanaRecognizer.mlmodel; sourceTree = "<group>"; };
+		7E3961BC2545E961005619E7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		7E3961BE2545E9C1005619E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		7E3B657024F0567200A441BC /* Kana Torii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kana Torii.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B657324F0567200A441BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E3B657524F0567200A441BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E3B657A24F0567200A441BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E3B657F24F0567200A441BC /* Kana_Torii.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kana_Torii.xcdatamodel; sourceTree = "<group>"; };
+		7E3B658124F0567500A441BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E3B658424F0567500A441BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E3B658624F0567500A441BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B658B24F0567500A441BC /* Kana ToriiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kana ToriiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B658F24F0567500A441BC /* Kana_ToriiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kana_ToriiTests.swift; sourceTree = "<group>"; };
+		7E3B659124F0567500A441BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B659624F0567500A441BC /* Kana ToriiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kana ToriiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B659A24F0567500A441BC /* Kana_ToriiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kana_ToriiUITests.swift; sourceTree = "<group>"; };
+		7E3B659C24F0567500A441BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B65AC24F0578800A441BC /* AboutKana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutKana.swift; sourceTree = "<group>"; };
+		7E3B65B324F057F000A441BC /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7E3B65B524F0610C00A441BC /* HomeLessons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLessons.swift; sourceTree = "<group>"; };
+		7E3B65B724F0612400A441BC /* HomeQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeQuiz.swift; sourceTree = "<group>"; };
+		7E3B65B924F0612D00A441BC /* Introduction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
+		7E3B65BB24F0613400A441BC /* KanaLessons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaLessons.swift; sourceTree = "<group>"; };
+		7E3B65BD24F0613D00A441BC /* KanaQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaQuiz.swift; sourceTree = "<group>"; };
+		7E3B65BF24F0628400A441BC /* KanaQuizKanaMCQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaQuizKanaMCQ.swift; sourceTree = "<group>"; };
+		7E3B65C124F0628E00A441BC /* KanaQuizRomajiMCQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaQuizRomajiMCQ.swift; sourceTree = "<group>"; };
+		7E3B65C324F0629900A441BC /* KanaQuizWriting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaQuizWriting.swift; sourceTree = "<group>"; };
+		7E3B65C524F062A500A441BC /* KatakanaCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KatakanaCharts.swift; sourceTree = "<group>"; };
+		7E3B65C724F062B300A441BC /* LessonLearn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonLearn.swift; sourceTree = "<group>"; };
+		7E3B65C924F062BE00A441BC /* LessonLearnWriting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonLearnWriting.swift; sourceTree = "<group>"; };
+		7E3B65CB24F062CE00A441BC /* LessonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTest.swift; sourceTree = "<group>"; };
+		7E3B65CD24F062D800A441BC /* LessonTestRomaji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTestRomaji.swift; sourceTree = "<group>"; };
+		7E3B65CF24F062E500A441BC /* LessonTestWriting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTestWriting.swift; sourceTree = "<group>"; };
+		7E3B65D124F062F300A441BC /* LessonTestWritingFirstTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTestWritingFirstTest.swift; sourceTree = "<group>"; };
+		7E3B65D324F0630800A441BC /* LessonTestWritingPractice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTestWritingPractice.swift; sourceTree = "<group>"; };
+		7E3B65D524F0635F00A441BC /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		7E3B65D724F0636800A441BC /* ChartService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartService.swift; sourceTree = "<group>"; };
+		7E3B65D924F0637400A441BC /* Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		7E3B65DB24F0638900A441BC /* Kana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kana.swift; sourceTree = "<group>"; };
+		7E3B65DD24F0639400A441BC /* KanaToRomaji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaToRomaji.swift; sourceTree = "<group>"; };
+		7E3B65DF24F063A100A441BC /* Lesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		7E3B65E124F063AC00A441BC /* LessonKana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonKana.swift; sourceTree = "<group>"; };
+		7E3B65E324F063B400A441BC /* Lessons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
+		7E3B65E524F063C200A441BC /* LessonsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsService.swift; sourceTree = "<group>"; };
+		7E3B65E724F063D000A441BC /* LinesKanaNameFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinesKanaNameFile.swift; sourceTree = "<group>"; };
+		7E3B65E924F063DB00A441BC /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		7E3B65EB24F063E600A441BC /* Romaji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Romaji.swift; sourceTree = "<group>"; };
+		7E3B65ED24F063F800A441BC /* RomajiToKana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomajiToKana.swift; sourceTree = "<group>"; };
+		7E3B65EF24F0640C00A441BC /* SuggestionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionService.swift; sourceTree = "<group>"; };
+		7E3B65F124F0641600A441BC /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		7E3B65F324F0646800A441BC /* WriteBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteBoardView.swift; sourceTree = "<group>"; };
+		7E3B65F524F0647100A441BC /* SuggestionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E3B65F724F0647C00A441BC /* MyLessonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLessonViewCell.swift; sourceTree = "<group>"; };
+		7E3B65F924F0648800A441BC /* MyKanaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKanaCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E3B65FB24F0649100A441BC /* LessonButtonKatakana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonButtonKatakana.swift; sourceTree = "<group>"; };
+		7E3B65FD24F0649A00A441BC /* LessonButtonHiragana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonButtonHiragana.swift; sourceTree = "<group>"; };
+		7E3B65FF24F064A300A441BC /* LabelRounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelRounded.swift; sourceTree = "<group>"; };
+		7E3B660124F064AE00A441BC /* KanaChartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaChartButton.swift; sourceTree = "<group>"; };
+		7E3B660324F064DF00A441BC /* CorrectionLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrectionLabel.swift; sourceTree = "<group>"; };
+		7E3B660524F064ED00A441BC /* CircledButtonYellow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircledButtonYellow.swift; sourceTree = "<group>"; };
+		7E3B660724F064F700A441BC /* CircledButtonRed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircledButtonRed.swift; sourceTree = "<group>"; };
+		7E3B660924F0686B00A441BC /* DetailKana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailKana.swift; sourceTree = "<group>"; };
+		7E3B660B24F0687300A441BC /* EndLesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndLesson.swift; sourceTree = "<group>"; };
+		7E3B660D24F0689B00A441BC /* EndQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndQuiz.swift; sourceTree = "<group>"; };
+		7E3B660F24F068A500A441BC /* HiraganaCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiraganaCharts.swift; sourceTree = "<group>"; };
+		7E3B661124F068BC00A441BC /* WriteBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteBoard.swift; sourceTree = "<group>"; };
+		7E54C4E025079B3E0002124D /* HeaderChartViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderChartViewCell.swift; sourceTree = "<group>"; };
+		7E681D14250933E7005BD57E /* MyKanaYoonFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKanaYoonFlowLayout.swift; sourceTree = "<group>"; };
+		7E681D16250955E8005BD57E /* MyKanaFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKanaFlowLayout.swift; sourceTree = "<group>"; };
+		7E68CDF32519E378003C2E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/SuggestionTestFlowLayout.swift; sourceTree = "<group>"; };
+		7E69171C24F1429C002B7544 /* Wrong Beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wrong Beep.mp3"; sourceTree = SOURCE_ROOT; };
+		7E69171E24F142A4002B7544 /* Correct Beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Correct Beep.mp3"; sourceTree = SOURCE_ROOT; };
+		7E7646A8250F7ED1002BA546 /* HomeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtons.swift; sourceTree = "<group>"; };
+		7E7646AC25111DDF002BA546 /* SuggestionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionFlowLayout.swift; sourceTree = "<group>"; };
+		7E79A64C253487B00055B46A /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		7EB34946253344C80022A662 /* HiraganaRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HiraganaRecognizer.mlmodel; sourceTree = "<group>"; };
+		7EC3FA3C257155EE008D4ACB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7EC3FA3E257155F4008D4ACB /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		7EEA76AC24FEA69900FA9D95 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7EEA76B124FFD5E700FA9D95 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EEA76B424FFDBCD00FA9D95 /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EFFCF7B24F1895F00FADB39 /* LessonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonData.swift; sourceTree = "<group>"; };
+		A1B751874B4E88F393966E82 /* Pods-Kana Torii.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kana Torii.debug.xcconfig"; path = "Target Support Files/Pods-Kana Torii/Pods-Kana Torii.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E3B656D24F0567200A441BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC3FA3F257155F4008D4ACB /* GameKit.framework in Frameworks */,
+				7E469AA62571527B00C94E9B /* Pods_Kana_Torii.framework in Frameworks */,
+				7EC3FA3D257155EE008D4ACB /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B658824F0567500A441BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B659324F0567500A441BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129943DDFABE5B77F3C63D99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1B751874B4E88F393966E82 /* Pods-Kana Torii.debug.xcconfig */,
+				1D2D6DD8F9AFA14FCFF055B6 /* Pods-Kana Torii.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E3B656724F0567200A441BC = {
+			isa = PBXGroup;
+			children = (
+				7EEA76B224FFD5E700FA9D95 /* Localizable.strings */,
+				7E3B657224F0567200A441BC /* Kana Torii */,
+				7E3B658E24F0567500A441BC /* Kana ToriiTests */,
+				7E3B659924F0567500A441BC /* Kana ToriiUITests */,
+				7E3B657124F0567200A441BC /* Products */,
+				129943DDFABE5B77F3C63D99 /* Pods */,
+				834EE28DE4063FCE85E9F9C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3B657124F0567200A441BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B657024F0567200A441BC /* Kana Torii.app */,
+				7E3B658B24F0567500A441BC /* Kana ToriiTests.xctest */,
+				7E3B659624F0567500A441BC /* Kana ToriiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3B657224F0567200A441BC /* Kana Torii */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B65A824F056B500A441BC /* Controller */,
+				7E3B65AA24F056C900A441BC /* View */,
+				7E3B65A924F056C000A441BC /* Model */,
+				7E3B65AB24F056D000A441BC /* Supporting Files */,
+				7E3B658624F0567500A441BC /* Info.plist */,
+			);
+			path = "Kana Torii";
+			sourceTree = "<group>";
+		};
+		7E3B658E24F0567500A441BC /* Kana ToriiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B658F24F0567500A441BC /* Kana_ToriiTests.swift */,
+				7E3B659124F0567500A441BC /* Info.plist */,
+			);
+			path = "Kana ToriiTests";
+			sourceTree = "<group>";
+		};
+		7E3B659924F0567500A441BC /* Kana ToriiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B659A24F0567500A441BC /* Kana_ToriiUITests.swift */,
+				7E3B659C24F0567500A441BC /* Info.plist */,
+			);
+			path = "Kana ToriiUITests";
+			sourceTree = "<group>";
+		};
+		7E3B65A824F056B500A441BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B65B324F057F000A441BC /* Home.swift */,
+				7E3B65AC24F0578800A441BC /* AboutKana.swift */,
+				7E3B65B924F0612D00A441BC /* Introduction.swift */,
+				7E3B660F24F068A500A441BC /* HiraganaCharts.swift */,
+				7E3B65C524F062A500A441BC /* KatakanaCharts.swift */,
+				7E3B660924F0686B00A441BC /* DetailKana.swift */,
+				7E3B661124F068BC00A441BC /* WriteBoard.swift */,
+				7E3B65B524F0610C00A441BC /* HomeLessons.swift */,
+				7E3B65BB24F0613400A441BC /* KanaLessons.swift */,
+				7E3B65C724F062B300A441BC /* LessonLearn.swift */,
+				7E3B65C924F062BE00A441BC /* LessonLearnWriting.swift */,
+				7E3B65CB24F062CE00A441BC /* LessonTest.swift */,
+				7E3B65CD24F062D800A441BC /* LessonTestRomaji.swift */,
+				7E3B65D324F0630800A441BC /* LessonTestWritingPractice.swift */,
+				7E3B65D124F062F300A441BC /* LessonTestWritingFirstTest.swift */,
+				7E3B65CF24F062E500A441BC /* LessonTestWriting.swift */,
+				7E3B660B24F0687300A441BC /* EndLesson.swift */,
+				7E3B65B724F0612400A441BC /* HomeQuiz.swift */,
+				7E3B65BD24F0613D00A441BC /* KanaQuiz.swift */,
+				7E3B65BF24F0628400A441BC /* KanaQuizKanaMCQ.swift */,
+				7E3B65C124F0628E00A441BC /* KanaQuizRomajiMCQ.swift */,
+				7E3B65C324F0629900A441BC /* KanaQuizWriting.swift */,
+				7E3B660D24F0689B00A441BC /* EndQuiz.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E3B65A924F056C000A441BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B65DF24F063A100A441BC /* Lesson.swift */,
+				7E3B65F124F0641600A441BC /* Test.swift */,
+				7E3B65E924F063DB00A441BC /* Quiz.swift */,
+				7E3B65D924F0637400A441BC /* Detail.swift */,
+				7E3B65D524F0635F00A441BC /* Chart.swift */,
+				7E3B65D724F0636800A441BC /* ChartService.swift */,
+				7E3B65E324F063B400A441BC /* Lessons.swift */,
+				7E3B65E524F063C200A441BC /* LessonsService.swift */,
+				7E3B65EF24F0640C00A441BC /* SuggestionService.swift */,
+				7EFFCF7B24F1895F00FADB39 /* LessonData.swift */,
+				7E3B65EB24F063E600A441BC /* Romaji.swift */,
+				7E3B65DB24F0638900A441BC /* Kana.swift */,
+				7E3B65ED24F063F800A441BC /* RomajiToKana.swift */,
+				7E3B65DD24F0639400A441BC /* KanaToRomaji.swift */,
+				7E3B65E124F063AC00A441BC /* LessonKana.swift */,
+				7E3B65E724F063D000A441BC /* LinesKanaNameFile.swift */,
+				7E3B657E24F0567200A441BC /* Kana_Torii.xcdatamodeld */,
+				7E79A64C253487B00055B46A /* ImageProcessor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E3B65AA24F056C900A441BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B658324F0567500A441BC /* LaunchScreen.storyboard */,
+				7E3B657924F0567200A441BC /* Main.storyboard */,
+				7E3B65FF24F064A300A441BC /* LabelRounded.swift */,
+				7E3B660124F064AE00A441BC /* KanaChartButton.swift */,
+				7E3B65FD24F0649A00A441BC /* LessonButtonHiragana.swift */,
+				7E3B660524F064ED00A441BC /* CircledButtonYellow.swift */,
+				7E3B660724F064F700A441BC /* CircledButtonRed.swift */,
+				7E3B660324F064DF00A441BC /* CorrectionLabel.swift */,
+				7E7646A8250F7ED1002BA546 /* HomeButtons.swift */,
+				7E3B65FB24F0649100A441BC /* LessonButtonKatakana.swift */,
+				7E3B65F324F0646800A441BC /* WriteBoardView.swift */,
+				7E54C4E025079B3E0002124D /* HeaderChartViewCell.swift */,
+				7E3B65F924F0648800A441BC /* MyKanaCollectionViewCell.swift */,
+				7E3B65F724F0647C00A441BC /* MyLessonViewCell.swift */,
+				7E3B65F524F0647100A441BC /* SuggestionCollectionViewCell.swift */,
+				7E681D14250933E7005BD57E /* MyKanaYoonFlowLayout.swift */,
+				7E681D16250955E8005BD57E /* MyKanaFlowLayout.swift */,
+				7E7646AC25111DDF002BA546 /* SuggestionFlowLayout.swift */,
+				7E68CDF22519E378003C2E61 /* SuggestionTestFlowLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E3B65AB24F056D000A441BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E017A712574183B009C263C /* KatakanaRecognizer.mlmodel */,
+				7EB34946253344C80022A662 /* HiraganaRecognizer.mlmodel */,
+				7E69171E24F142A4002B7544 /* Correct Beep.mp3 */,
+				7E69171C24F1429C002B7544 /* Wrong Beep.mp3 */,
+				7E3B658124F0567500A441BC /* Assets.xcassets */,
+				7E3B657324F0567200A441BC /* AppDelegate.swift */,
+				7E3B657524F0567200A441BC /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		834EE28DE4063FCE85E9F9C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3FA3E257155F4008D4ACB /* GameKit.framework */,
+				7EC3FA3C257155EE008D4ACB /* StoreKit.framework */,
+				1DA7337CE6226AB171EF8736 /* Pods_Kana_Torii.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3B656F24F0567200A441BC /* Kana Torii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3B659F24F0567500A441BC /* Build configuration list for PBXNativeTarget "Kana Torii" */;
+			buildPhases = (
+				E132AD88ECBEB4BE8F9BC94E /* [CP] Check Pods Manifest.lock */,
+				7E3B656C24F0567200A441BC /* Sources */,
+				7E3B656D24F0567200A441BC /* Frameworks */,
+				7E3B656E24F0567200A441BC /* Resources */,
+				97BF36107926D131EC88B687 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kana Torii";
+			productName = "Kana Torii";
+			productReference = 7E3B657024F0567200A441BC /* Kana Torii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E3B658A24F0567500A441BC /* Kana ToriiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3B65A224F0567500A441BC /* Build configuration list for PBXNativeTarget "Kana ToriiTests" */;
+			buildPhases = (
+				7E3B658724F0567500A441BC /* Sources */,
+				7E3B658824F0567500A441BC /* Frameworks */,
+				7E3B658924F0567500A441BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3B658D24F0567500A441BC /* PBXTargetDependency */,
+			);
+			name = "Kana ToriiTests";
+			productName = "Kana ToriiTests";
+			productReference = 7E3B658B24F0567500A441BC /* Kana ToriiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E3B659524F0567500A441BC /* Kana ToriiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3B65A524F0567500A441BC /* Build configuration list for PBXNativeTarget "Kana ToriiUITests" */;
+			buildPhases = (
+				7E3B659224F0567500A441BC /* Sources */,
+				7E3B659324F0567500A441BC /* Frameworks */,
+				7E3B659424F0567500A441BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3B659824F0567500A441BC /* PBXTargetDependency */,
+			);
+			name = "Kana ToriiUITests";
+			productName = "Kana ToriiUITests";
+			productReference = 7E3B659624F0567500A441BC /* Kana ToriiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3B656824F0567200A441BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					7E3B656F24F0567200A441BC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					7E3B658A24F0567500A441BC = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 7E3B656F24F0567200A441BC;
+					};
+					7E3B659524F0567500A441BC = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 7E3B656F24F0567200A441BC;
+					};
+				};
+			};
+			buildConfigurationList = 7E3B656B24F0567200A441BC /* Build configuration list for PBXProject "Kana Torii" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 7E3B656724F0567200A441BC;
+			productRefGroup = 7E3B657124F0567200A441BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3B656F24F0567200A441BC /* Kana Torii */,
+				7E3B658A24F0567500A441BC /* Kana ToriiTests */,
+				7E3B659524F0567500A441BC /* Kana ToriiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3B656E24F0567200A441BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B658524F0567500A441BC /* LaunchScreen.storyboard in Resources */,
+				7E69171D24F1429C002B7544 /* Wrong Beep.mp3 in Resources */,
+				7EEA76B024FFD5E700FA9D95 /* Localizable.strings in Resources */,
+				7E3B658224F0567500A441BC /* Assets.xcassets in Resources */,
+				7E69171F24F142A4002B7544 /* Correct Beep.mp3 in Resources */,
+				7E3B657B24F0567200A441BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B658924F0567500A441BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B659424F0567500A441BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97BF36107926D131EC88B687 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kana Torii/Pods-Kana Torii-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kana Torii/Pods-Kana Torii-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kana Torii/Pods-Kana Torii-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E132AD88ECBEB4BE8F9BC94E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kana Torii-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E3B656C24F0567200A441BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B65E824F063D000A441BC /* LinesKanaNameFile.swift in Sources */,
+				7E3B660024F064A300A441BC /* LabelRounded.swift in Sources */,
+				7E3B65EE24F063F800A441BC /* RomajiToKana.swift in Sources */,
+				7E3B65AD24F0578800A441BC /* AboutKana.swift in Sources */,
+				7E017A722574183B009C263C /* KatakanaRecognizer.mlmodel in Sources */,
+				7E3B65BC24F0613400A441BC /* KanaLessons.swift in Sources */,
+				7E3B660224F064AE00A441BC /* KanaChartButton.swift in Sources */,
+				7E3B65F624F0647100A441BC /* SuggestionCollectionViewCell.swift in Sources */,
+				7E3B65DA24F0637400A441BC /* Detail.swift in Sources */,
+				7E3B65C624F062A500A441BC /* KatakanaCharts.swift in Sources */,
+				7E3B657424F0567200A441BC /* AppDelegate.swift in Sources */,
+				7E7646A9250F7ED1002BA546 /* HomeButtons.swift in Sources */,
+				7E3B65FC24F0649100A441BC /* LessonButtonKatakana.swift in Sources */,
+				7E3B660424F064DF00A441BC /* CorrectionLabel.swift in Sources */,
+				7E7646AD25111DDF002BA546 /* SuggestionFlowLayout.swift in Sources */,
+				7E3B65DC24F0638900A441BC /* Kana.swift in Sources */,
+				7E3B65B424F057F000A441BC /* Home.swift in Sources */,
+				7E3B660824F064F700A441BC /* CircledButtonRed.swift in Sources */,
+				7E3B660624F064ED00A441BC /* CircledButtonYellow.swift in Sources */,
+				7E681D17250955E8005BD57E /* MyKanaFlowLayout.swift in Sources */,
+				7E79A64D253487B00055B46A /* ImageProcessor.swift in Sources */,
+				7E3B65E624F063C200A441BC /* LessonsService.swift in Sources */,
+				7E3B65DE24F0639400A441BC /* KanaToRomaji.swift in Sources */,
+				7E3B65D424F0630800A441BC /* LessonTestWritingPractice.swift in Sources */,
+				7E3B65B824F0612400A441BC /* HomeQuiz.swift in Sources */,
+				7E54C4E125079B3E0002124D /* HeaderChartViewCell.swift in Sources */,
+				7E3B65E224F063AC00A441BC /* LessonKana.swift in Sources */,
+				7E3B65C224F0628E00A441BC /* KanaQuizRomajiMCQ.swift in Sources */,
+				7E3B65EA24F063DB00A441BC /* Quiz.swift in Sources */,
+				7E3B660C24F0687300A441BC /* EndLesson.swift in Sources */,
+				7E3B660E24F0689B00A441BC /* EndQuiz.swift in Sources */,
+				7E3B65FA24F0648800A441BC /* MyKanaCollectionViewCell.swift in Sources */,
+				7E681D15250933E7005BD57E /* MyKanaYoonFlowLayout.swift in Sources */,
+				7E68CDF42519E378003C2E61 /* SuggestionTestFlowLayout.swift in Sources */,
+				7E3B661224F068BC00A441BC /* WriteBoard.swift in Sources */,
+				7EB34947253344C80022A662 /* HiraganaRecognizer.mlmodel in Sources */,
+				7E3B657624F0567200A441BC /* SceneDelegate.swift in Sources */,
+				7E3B65B624F0610C00A441BC /* HomeLessons.swift in Sources */,
+				7E3B658024F0567200A441BC /* Kana_Torii.xcdatamodeld in Sources */,
+				7E3B65D824F0636800A441BC /* ChartService.swift in Sources */,
+				7EFFCF7C24F1895F00FADB39 /* LessonData.swift in Sources */,
+				7E3B65E424F063B400A441BC /* Lessons.swift in Sources */,
+				7E3B65D024F062E600A441BC /* LessonTestWriting.swift in Sources */,
+				7E3B65EC24F063E600A441BC /* Romaji.swift in Sources */,
+				7E3B65CC24F062CF00A441BC /* LessonTest.swift in Sources */,
+				7E3B65CE24F062D800A441BC /* LessonTestRomaji.swift in Sources */,
+				7E3B65E024F063A100A441BC /* Lesson.swift in Sources */,
+				7E3B65D624F0635F00A441BC /* Chart.swift in Sources */,
+				7E3B661024F068A500A441BC /* HiraganaCharts.swift in Sources */,
+				7E3B65C024F0628400A441BC /* KanaQuizKanaMCQ.swift in Sources */,
+				7E3B65BA24F0612D00A441BC /* Introduction.swift in Sources */,
+				7E3B65F224F0641600A441BC /* Test.swift in Sources */,
+				7E3B65C424F0629A00A441BC /* KanaQuizWriting.swift in Sources */,
+				7E3B65F824F0647C00A441BC /* MyLessonViewCell.swift in Sources */,
+				7E3B65CA24F062BE00A441BC /* LessonLearnWriting.swift in Sources */,
+				7E3B660A24F0686B00A441BC /* DetailKana.swift in Sources */,
+				7E3B65C824F062B300A441BC /* LessonLearn.swift in Sources */,
+				7E3B65D224F062F300A441BC /* LessonTestWritingFirstTest.swift in Sources */,
+				7E3B65FE24F0649A00A441BC /* LessonButtonHiragana.swift in Sources */,
+				7E3B65BE24F0613D00A441BC /* KanaQuiz.swift in Sources */,
+				7E3B65F024F0640C00A441BC /* SuggestionService.swift in Sources */,
+				7E3B65F424F0646800A441BC /* WriteBoardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B658724F0567500A441BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B659024F0567500A441BC /* Kana_ToriiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B659224F0567500A441BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B659B24F0567500A441BC /* Kana_ToriiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E3B658D24F0567500A441BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3B656F24F0567200A441BC /* Kana Torii */;
+			targetProxy = 7E3B658C24F0567500A441BC /* PBXContainerItemProxy */;
+		};
+		7E3B659824F0567500A441BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3B656F24F0567200A441BC /* Kana Torii */;
+			targetProxy = 7E3B659724F0567500A441BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E3B657924F0567200A441BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3B657A24F0567200A441BC /* Base */,
+				7E3961BC2545E961005619E7 /* fr */,
+				7E3961BE2545E9C1005619E7 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E3B658324F0567500A441BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3B658424F0567500A441BC /* Base */,
+				7EEA76AC24FEA69900FA9D95 /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7E68CDF22519E378003C2E61 /* SuggestionTestFlowLayout.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E68CDF32519E378003C2E61 /* Base */,
+			);
+			name = SuggestionTestFlowLayout.swift;
+			sourceTree = "<group>";
+		};
+		7EEA76B224FFD5E700FA9D95 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EEA76B124FFD5E700FA9D95 /* en */,
+				7EEA76B424FFDBCD00FA9D95 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E3B659D24F0567500A441BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E3B659E24F0567500A441BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E3B65A024F0567500A441BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B751874B4E88F393966E82 /* Pods-Kana Torii.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56656LMAV;
+				INFOPLIST_FILE = "Kana Torii/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.clementfloret.kanatorii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E3B65A124F0567500A441BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2D6DD8F9AFA14FCFF055B6 /* Pods-Kana Torii.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56656LMAV;
+				INFOPLIST_FILE = "Kana Torii/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.clementfloret.kanatorii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7E3B65A324F0567500A441BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56656LMAV;
+				INFOPLIST_FILE = "Kana ToriiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.clementfloret.Kana-ToriiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kana Torii.app/Kana Torii";
+			};
+			name = Debug;
+		};
+		7E3B65A424F0567500A441BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56656LMAV;
+				INFOPLIST_FILE = "Kana ToriiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.clementfloret.Kana-ToriiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kana Torii.app/Kana Torii";
+			};
+			name = Release;
+		};
+		7E3B65A624F0567500A441BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56656LMAV;
+				INFOPLIST_FILE = "Kana ToriiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.clementfloret.Kana-ToriiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kana Torii";
+			};
+			name = Debug;
+		};
+		7E3B65A724F0567500A441BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56656LMAV;
+				INFOPLIST_FILE = "Kana ToriiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.clementfloret.Kana-ToriiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kana Torii";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E3B656B24F0567200A441BC /* Build configuration list for PBXProject "Kana Torii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B659D24F0567500A441BC /* Debug */,
+				7E3B659E24F0567500A441BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3B659F24F0567500A441BC /* Build configuration list for PBXNativeTarget "Kana Torii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B65A024F0567500A441BC /* Debug */,
+				7E3B65A124F0567500A441BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3B65A224F0567500A441BC /* Build configuration list for PBXNativeTarget "Kana ToriiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B65A324F0567500A441BC /* Debug */,
+				7E3B65A424F0567500A441BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3B65A524F0567500A441BC /* Build configuration list for PBXNativeTarget "Kana ToriiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B65A624F0567500A441BC /* Debug */,
+				7E3B65A724F0567500A441BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E3B657E24F0567200A441BC /* Kana_Torii.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E3B657F24F0567200A441BC /* Kana_Torii.xcdatamodel */,
+			);
+			currentVersion = 7E3B657F24F0567200A441BC /* Kana_Torii.xcdatamodel */;
+			path = Kana_Torii.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E3B656824F0567200A441BC /* Project object */;
+}

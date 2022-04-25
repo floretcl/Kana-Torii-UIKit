@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  Kana Torii
+
+  Created by Clément FLORET on 02/09/2020.
+  
+*/
+
+HiraganaReadingLessons = "Leçons de lecture d'Hiragana";
+
+KatakanaReadingLessons = "Leçons de lecture de Katakana";
+
+HiraganaWritingLessons = "Leçons d'écriture d'Hiragana";
+
+KatakanaWritingLessons = "Leçons d'écriture de Katakana";
+
+Reading = " Lecture";
+
+Part = "Partie";
+
+Note = "Note";
+
+EndOfLearning = "À partir de maintenant c'est un test noté";
+
+Writing = " Écriture";
+
+GoodAnswer = "Bonne réponse !";
+
+WrongAnswer = "Mauvaise réponse";
+
+YourScore = "Votre Score";
+
+Back = "Retour";
+
+TranslateHiraganaToRomaji = "Traduire le Hiragana en romaji";
+
+TranslateKatakanaToRomaji = "Traduire le Katakana en romaji";
+
+Question = "Question";
+
+FindCorrectRomajiForHiragana = "Trouve le bon romaji";
+
+FindCorrectRomajiForKatakana = "Trouve le bon romaji";
+
+FindCorrectHiraganaForRomaji = "Trouve le bon Hiragana";
+
+FindCorrectKatakanaForRomaji = "Trouve le bon Katakana";
+
+TranslateRomajiToHiragana = "Traduit en Hiragana";
+
+TranslateRomajiToKatakana = "Traduit en Katakana";
+
+Perfect = "Parfait, c'est ça!!";
+
+VeryGood = "Très bien, encore un petit effort!";
+
+Good = "Bien, continue à apprendre";
+
+GoodEnough = "Pas mal, n'hésite pas à repéter encore les leçons";
+
+NotTooBad = "Pas mauvais mais il faut encore apprendre";
+
+Bad = "C'est plutôt mauvais, retourne aux leçons";
+
+Error = "Erreur";
+
+Lesson = "Leçon";
+
+AutoDetectionFailed = "Auto-détection échouée";
+
+ManualCorrection = "Correction manuel : Regarde la correction pour voir si tu as juste";
+
+SeeCorrection = "Maintenir pour voir la correction";
+
+AboutKana = "Pour écrire et lire le japonais, on utilise les Kana et les Kanji, ce qui nous intéressent ici ce sont les Kana. Ce sont des syllabaires, ce qui veut dire que la langue japonaise n'a pas d'alphabet dans le forme que nous connaissons, pour la plupart d'entre nous. Les Hiragana et Katakana équivalent pour leur forme \"simple\" à une syllabe de deux lettre, à l'exception du \"n\". Dans leur forme simple, les Hiragana et Katakana comportent 46 caractères d'écriture différente dont les prononciations sont identiques. Pour écrire ces caractères, il y a un ordre des traits déterminé, très important. Les Hiragana servent à écrire les mots typiquement japonais et les Katakana les mots d'origine étrangère.";
+
+Introduction = "Le premier pas dans l'apprentissage du japonais est de se savoir lire et écrire. Au japon on utilise pour cela deux syllabaires: les Hiragana et Katakana, appelés Kana, et les idéogrammes, appelés Kanji. \nPour apprendre les Kana il n'y a pas de secret, il faut les apprendre par coeur. \nCette application a pour but de vous aider dans l'apprentissage des kana. Pour cela, pour rendre la tâche plus facile il y a dans cette application une section \"leçons\". Elle permet d'apprendre pas à pas à reconnaître les hiragana puis les katakana. C'est très pratique et il est conseillé de les répéter. Pour un vision d'ensemble, vous pouvez aller dans les sections \"hiragana\" et \"katakana\", voir un caractère en particulier, connaître son écriture, écouter sa prononciation et vous entrainez à l'écrire. Enfin une section Quiz vous permettra de vous entrainez quand vous connaitrez mieux les hiragana et katakana.";
+

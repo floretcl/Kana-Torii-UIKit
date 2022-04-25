@@ -1,0 +1,77 @@
+/* 
+  Localizable.strings
+  Kana Torii
+
+  Created by Clément FLORET on 02/09/2020.
+  
+*/
+
+HiraganaReadingLessons = "Hiragana reading lessons";
+
+KatakanaReadingLessons = "Katakana reading lessons";
+
+HiraganaWritingLessons = "Hiragana writing lessons";
+
+KatakanaWritingLessons = "Katakana writing lessons";
+
+Reading = " Reading";
+
+Part = "Part";
+
+Note = "Note";
+
+EndOfLearning = "End of learning, now it's a noted test";
+
+Writing = " Writing";
+
+GoodAnswer = "Good answer !";
+
+WrongAnswer = "Wrong answer";
+
+YourScore = "Your Score";
+
+Back = "Back";
+
+TranslateHiraganaToRomaji = "Translate Hiragana to Romaji";
+
+TranslateKatakanaToRomaji = "Translate Katakana To Romaji";
+
+Question = "Question";
+
+FindCorrectRomajiForHiragana = "Find correct Romaji";
+
+FindCorrectRomajiForKatakana = "Find correct Romaji";
+
+FindCorrectHiraganaForRomaji = "Find correct Hiragana";
+
+FindCorrectKatakanaForRomaji = "Find correct Katakana";
+
+TranslateRomajiToHiragana = "Translate to Hiragana";
+
+TranslateRomajiToKatakana = "Translate to Katakana";
+
+Perfect = "Perfect, that's it";
+
+VeryGood = "Very Good, just a little more effort";
+
+Good = "Good, continue to learn";
+
+GoodEnough = "Good enough, try to repeat lessons";
+
+NotTooBad = "Not too bad but you still have to learn";
+
+Bad = "Pretty Bad, return to lessons";
+
+Error = "Error";
+
+Lesson = "Lesson";
+
+AutoDetectionFailed = "Auto-Detection failed";
+
+ManualCorrection = "Manual correction : Look at the correction to see if your right";
+
+SeeCorrection = "Hold to see correction";
+
+AboutKana = "To write and read Japanese, we use Kana and Kanji, what interests us here are Kana. They are syllabaries, which means that the Japanese language does not have an alphabet in the form we know, for most of us. Hiragana and katakana are equivalent in their \"simple\" form to a two-letter syllable, except for the \"n\". In their simple form, hiragana and katakana consist of 46 characters of different writing with identical pronociations. To write these characters, there is a specific order of the lines, very important. The Hiragana are used to write the typical Japanese words and the Katakana the words of foreign origin.";
+
+Introduction = "The first step in learning Japanese is to know how to read and write. In Japan, two syllabaries are used for this: Hiragana and Katakana, called Kana, and ideograms, called Kanji.\nTo learn kana there is no secret, you have to learn them by heart.\nThis application aims to help you in learning kana. For that, to make the task easier there is in this application a section \"lessons\". It allows you to learn step by step to recognize hiragana and then katakana. It is very practical and it is advisable to repeat them. For an overview, you can go to the \"hiragana\" and \"katakana\" sections, see a particular character, know its writing, listen to its pronunciation and practice writing it. Finally a Quiz section will allow you to practice when you get to know hiragana and katakana better.";
